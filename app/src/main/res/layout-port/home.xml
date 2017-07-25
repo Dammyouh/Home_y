@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:home="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- All applications on the top side of the screen -->
+    <GridView
+        android:id="@+id/all_apps"
+        android:background="#00000000"
+        android:persistentDrawingCache="animation|scrolling"
+        android:alwaysDrawnWithCache="true"
+        android:scrollbars="none"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/grid_selector"
+        android:numColumns="auto_fit"
+        android:columnWidth="90dp"
+        android:stretchMode="spacingWidth"
+        android:layout_weight="1.0"
+        android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:stackFromBottom="false"
+        android:visibility="visible" />
+
+    <!--&lt;!&ndash; Favorites and Recents &ndash;&gt;-->
+    <!--<com.example.yangxiaoyu.home_y.ApplicationsStackLayout android:id="@+id/faves_and_recents"-->
+        <!--home:stackOrientation="horizontal"-->
+        <!--home:marginLeft="1dip"-->
+        <!--home:marginRight="1dip"-->
+        <!--android:layout_marginTop="0dip"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="65dip"-->
+        <!--android:background="@drawable/application_background" />-->
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="ApplicationsStackLayout">
+        <attr name="stackOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="marginLeft" format="dimension"  />
+        <attr name="marginTop" format="dimension"  />
+        <attr name="marginRight" format="dimension"  />
+        <attr name="marginBottom" format="dimension"  />
+    </declare-styleable>
+</resources>
